@@ -19,6 +19,7 @@ I am not very experienced in making things like this so expect a little bit of b
 ## Usage
 
 Have both this and soundpad open at the same time.
+To open this just start DownloadToSoundpad.exe
 
 To download and import a sound:
 
