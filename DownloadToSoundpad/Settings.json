@@ -1,0 +1,8 @@
+{
+  "Settings": {
+    "DownloadDirectory": "C:\\Users\\your\\folder",
+    "ytdlpPath": "C:\\Users\\your\\directorydlp\\yt-dlp.exe",
+    "ffmpegPath": "C:\\Users\\your\\directory\\yt-dlp\\ffmpeg.exe",
+    "outputFileTemplate": "%(title)s"
+  }
+}
