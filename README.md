@@ -13,7 +13,7 @@ I am not very experienced in making things like this so expect a little bit of b
 - Set the folder path where you would like the downloaded files to end up in "DownloadDirectory"
 - Set the path of ytdlp in "ytdlpPath"
 - Set the path of ffmpeg in "ffmpegPath"
-- (optional) set the template of the output file name in "outputFileTemplate" [ytdlp readme on setting this](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#output-template)
+- (optional) set the template of the output file name in "outputFileTemplate" [yt-dlp readme on setting this](https://github.com/yt-dlp/yt-dlp?tab=readme-ov-file#output-template)
 
 
 ## Usage
@@ -31,6 +31,7 @@ To exit enter e or close the window
 
 
 Made using:
+
 [Soundpad Connector](https://medokin.github.io/soundpad-connector/index.html)
 
 [yt-dlp](https://github.com/yt-dlp/yt-dlp)

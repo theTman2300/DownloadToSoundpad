@@ -24,11 +24,6 @@ internal class Program
             }
 
             /*----- Download Sound ----- */
-            //var ytdl = new YoutubeDL();
-            //ytdl.YoutubeDLPath = startup.Settings.ytdlpPath;
-            //ytdl.FFmpegPath = startup.Settings.ffmpegPath;
-            //ytdl.OutputFolder = startup.Settings.DownloadDirectory;
-
             var ytdl = new YoutubeDL
             {
                 YoutubeDLPath = startup.Settings.ytdlpPath,
@@ -78,12 +73,6 @@ internal class Program
 
             Console.WriteLine("Done!\n");
         }
-    }
-
-    static string CleanFileName(string path)
-    {
-        var invalids = Path.GetInvalidFileNameChars();
-        return new string(path.Where(c => !invalids.Contains(c)).ToArray());
     }
 }
 
